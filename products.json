@@ -1,0 +1,8 @@
+[
+  {"id":"tomaat","name":"Tomaten","price":2.49,"unit":"500 g","emoji":"🍅","desc":"Rijpe tomaten voor salade, saus en warme gerechten.","image":"","active":true,"stock":"Op voorraad","sort":10},
+  {"id":"komkommer","name":"Komkommer","price":1.29,"unit":"per stuk","emoji":"🥒","desc":"Frisse komkommer met een knapperige bite.","image":"","active":true,"stock":"Op voorraad","sort":20},
+  {"id":"wortel","name":"Wortelen","price":1.99,"unit":"1 kg","emoji":"🥕","desc":"Stevige wortelen voor koken, roosteren of rauw gebruik.","image":"","active":true,"stock":"Op voorraad","sort":30},
+  {"id":"paprika","name":"Paprika mix","price":2.99,"unit":"3 stuks","emoji":"🫑","desc":"Kleurrijke paprikamix voor salade, grill of wok.","image":"","active":true,"stock":"Op voorraad","sort":40},
+  {"id":"broccoli","name":"Broccoli","price":1.79,"unit":"per stuk","emoji":"🥦","desc":"Verse broccoli, veelzijdig en eenvoudig te bereiden.","image":"","active":true,"stock":"Op voorraad","sort":50},
+  {"id":"ui","name":"Uien","price":1.69,"unit":"1 kg","emoji":"🧅","desc":"Een praktische basis voor veel verschillende gerechten.","image":"","active":true,"stock":"Op voorraad","sort":60}
+]
