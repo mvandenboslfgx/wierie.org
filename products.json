@@ -1,11 +1,11 @@
 [
   {
     "id": "tomaat",
-    "name": "White Runtz ",
-    "price": 650,
-    "unit": "100 g",
-    "emoji": "🥦",
-    "desc": "Heerlijk sterk",
+    "name": "Tomaten",
+    "price": 2.49,
+    "unit": "500 g",
+    "emoji": "🍅",
+    "desc": "Rijpe tomaten voor salade, saus en warme gerechten.",
     "image": "",
     "active": true,
     "stock": "Op voorraad",
