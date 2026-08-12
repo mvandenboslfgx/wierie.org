@@ -1,12 +1,12 @@
 [
   {
     "id": "tomaat",
-    "name": "Tomaten",
-    "price": 2.49,
-    "unit": "500 g",
+    "name": "Yoyo",
+    "price": 6.5,
+    "unit": "100",
     "emoji": "🍅",
     "desc": "Rijpe tomaten voor salade, saus en warme gerechten.",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/mvandenboslfgx/wierie.org/main/images/products/tomaten-1786577749511.jpg?v=1786577750928",
     "active": true,
     "stock": "Op voorraad",
     "sort": 10
