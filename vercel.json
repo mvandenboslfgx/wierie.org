@@ -1,14 +1,17 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    {"source":"/data/products","destination":"https://raw.githubusercontent.com/mvandenboslfgx/wierie.org/main/products.json"},
+    {"source":"/data/settings","destination":"https://raw.githubusercontent.com/mvandenboslfgx/wierie.org/main/settings.json"}
+  ],
   "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {"key": "X-Content-Type-Options", "value": "nosniff"},
-        {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"},
-        {"key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()"}
-      ]
-    }
+    {"source":"/(.*)","headers":[
+      {"key":"X-Content-Type-Options","value":"nosniff"},
+      {"key":"Referrer-Policy","value":"no-referrer"},
+      {"key":"Permissions-Policy","value":"camera=(), microphone=(), geolocation=()"},
+      {"key":"X-Frame-Options","value":"DENY"}
+    ]},
+    {"source":"/beheer","headers":[{"key":"X-Robots-Tag","value":"noindex, nofollow, noarchive"}]}
   ]
 }
